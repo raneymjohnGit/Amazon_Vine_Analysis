@@ -79,13 +79,13 @@ Using SQL in pgAdmin
 
 ## Amazon_Vine_Analysis Results
   - Total Vine reviews and Non Vine reviews
-    ![image_name](https://github.com/raneymjohnGit/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/EarthquakeDataOnMap.png)
+    ![image_name](https://github.com/raneymjohnGit/Amazon_Vine_Analysis/blob/main/Resources/Total_Reviews.png)
  
   - Total 5 star Vine reviews and Total 5 star Non Vine reviews
-    ![image_name](https://github.com/raneymjohnGit/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/EarthquakeDataOnMap.png)
+    ![image_name](https://github.com/raneymjohnGit/Amazon_Vine_Analysis/blob/main/Resources/PercentageReviews.png)
 
   - Percentage for 5 star Vine reviews and Percentage for 5 star Non Vine reviews
-    ![image_name](https://github.com/raneymjohnGit/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/EarthquakeDataOnMap.png)
+    ![image_name](https://github.com/raneymjohnGit/Amazon_Vine_Analysis/blob/main/Resources/FiveStarReviews.png)
 
 ## Amazon_Vine_Analysis Summary
 
@@ -109,4 +109,4 @@ Using SQL in pgAdmin
 					  AND CAST(HELPFUL_VOTES AS FLOAT) /CAST(TOTAL_VOTES AS FLOAT) * 100 >= 50
 	                  AND VINE = 'Y') A ) B;
 
-    ![image_name](https://github.com/raneymjohnGit/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/EarthquakeDataOnMap.png)
+    ![image_name](https://github.com/raneymjohnGit/Amazon_Vine_Analysis/blob/main/Resources/Additonal_Analysis.png)
